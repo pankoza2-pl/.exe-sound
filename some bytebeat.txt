@@ -1,2 +1,12 @@
 //string on int C bytebeat
 (t&t>>"69:69pm"[t>>12&6])*t>>8 //8000hz
+
+((15 + 1 * "1370"[t >> 15 & 3]) / 8 * "12346543"[t >> 10 & 7] * t % 192 + 160) % 256 / 2 + 64 //12025hz
+
+//JS Bytebeat
+
+//Trill by u/deleted
+//https://www.reddit.com/r/bytebeat/comments/20km9l/cool_equations/
+64*sin(sin(t/100)-t/(2+(t>>10&t>>12)%9))+128 //8000
+
+64 * Math.Sin(Math.Sin(t / 100) - t / (2 + (t >> 10 & t >> 12) % 9)) + 128 //8000
