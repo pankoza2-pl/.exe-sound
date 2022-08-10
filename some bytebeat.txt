@@ -1,2 +1,2 @@
-//string on int
+//string on int C bytebeat
 (t&t>>"69:69pm"[t>>12&6])*t>>8 //8000hz
