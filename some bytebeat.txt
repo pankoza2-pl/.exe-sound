@@ -33,3 +33,5 @@ t*(t>>10|t>>5)>>(t>>16) //11025hz
 
 // using cbrt??
 256*cbrt(t*(t>>64|t*33)) // any hz
+
+sqrt(t*(t>>9|9))+tan(t^sqrt(t*t*(t>>10&t>>4))) //any hz
