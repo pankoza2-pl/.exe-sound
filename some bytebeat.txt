@@ -6,7 +6,7 @@
 //JS Bytebeat
 
 //Trill by u/deleted
-//https://www.reddit.com/r/bytebeat/comments/20km9l/cool_equations/
+// https://www.reddit.com/r/bytebeat/comments/20km9l/cool_equations/
 64*sin(sin(t/100)-t/(2+(t>>10&t>>12)%9))+128 //8000
 
 64 * Math.Sin(Math.Sin(t / 100) - t / (2 + (t >> 10 & t >> 12) % 9)) + 128 //8000
@@ -37,3 +37,7 @@ t*(t>>10|t>>5)>>(t>>16) //11025hz
 sqrt(t*(t>>9|9))+tan(t^sqrt(t*t*(t>>10&t>>4))) //any hz
 
 t*(t&t>>9) //any hz
+
+// https://dollchan.net/btb/res/3.html#3
+(t*3)&t%255 //any hz
+(t>>10)*((t*3)&t%255) //11025hz
