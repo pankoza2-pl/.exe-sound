@@ -41,3 +41,7 @@ t*(t&t>>9) //any hz
 // https://dollchan.net/btb/res/3.html#3
 (t*3)&t%255 //any hz
 (t>>10)*((t*3)&t%255) //11025hz
+
+// https://dollchan.net/btb/res/195.html#195
+// ColorCs.exe ??
+(t|(t>>9|t>>7))*t&(t>>11|t>>9) // 8000hz
