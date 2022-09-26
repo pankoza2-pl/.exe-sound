@@ -47,3 +47,11 @@ t*(t&t>>9) //any hz
 (t|(t>>9|t>>7))*t&(t>>11|t>>9) // 8000hz
 
 t*(t>>6&t>>2) //8000hz
+
+// Possibly Monoxide exe sounds by Clxcq
+// https://youtu.be/PPd6aEyQm1Y
+(t*((t>>7|t>>12)&15&t>>9)) // 8000hz
+(t*((t>>6|t>>12)&15&t>>9)) // 8000hz
+(t*((t>>6|t>>12)&15&t>>0)) // 8000hz
+(t*((t>>6|t>>12)&15&t>>10)) // 8000hz
+
